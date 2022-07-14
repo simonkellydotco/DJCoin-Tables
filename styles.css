@@ -42,7 +42,12 @@ th {
     margin: 0px 10px 0px 10px;
 }
 
-.award-icon{
+.award-icon {
+  max-height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+.flag {
   max-height: 24px;
   margin: 0px;
   padding: 0px;
