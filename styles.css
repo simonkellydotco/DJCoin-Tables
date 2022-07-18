@@ -5,35 +5,34 @@
 
 
 table {
-    display: table;
-    margin-left:auto;
-    margin-right:auto;
-    table-layout: auto;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    border-spacing: 2px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+  table-layout: auto;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: scroll;
+}
 
-  }
 
   td {
     padding: 10px;
     height: 50px;
-    border-bottom: 1.75px solid black;
+    border-bottom: 1.4px solid black;
     font-size: 14px;
     color: black;
     background-color: white;
     padding: 12px 15px;
-
   }
-
 
 th {
 
     font-family: Roboto;
     background: white;
-    border-bottom: 1.75px solid black;
-    font-size: 27px;
+    border-bottom: 1.4px solid black;
+    font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -47,6 +46,7 @@ th {
   margin: 0px;
   padding: 0px;
 }
+
 .flag {
   max-height: 24px;
   margin: 0px;
